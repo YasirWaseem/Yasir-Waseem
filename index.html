@@ -1,52 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/x-icon" href="prof image-fotor-ai-art-effects-20240620172551.jpg">
-    <title>Yasir Waseem | Portfolio</title>
+    <title>YASIR|PORTFOLIO</title>
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Bree+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <a href="#" id="header-title">
-                <img class="logo" src="prof image-fotor-ai-art-effects-20240620172551.jpg" alt="logo">
-                <span id="title">Yasir Waseem</span>
-            </a>
-            <div class="menu">
-                <a class="menu-item" onclick="menuScrollTo('intro-section', false);">Intro</a>
-                <a class="menu-item" onclick="menuScrollTo('work-section');">Work</a>
-                <a class="menu-item" onclick="menuScrollTo('contact-section');">Contact</a>
+    <nav id="navbar">
+        <div id="logo">
+        <img src="" alt="Yasir logo">
+        </div>
+                
+        <ul>
+        <li class="items"><a href="#">Home</a></li>
+        <li class="items"><a href="">About</a></li>
+        <li class="items"><a href="">Project</a></li>
+        <li class="items"><a href="">Connect</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to Yasir's Profile</h1>
+        <p>A common student interested in Programming, Development, Robotics, AI </p>
+        <p>and other invigorating things.s </p>
+        <button class="btn">Get Resume</button>
+    </section>
+
+    <section id="about-container">
+        <h1 class="h-primary center grey_bg">About Me</h1>
+        <div id="about">
+            <div id="about-data">
+                <p>
+                    I am Yasir Waseem. A CSE(AI & ML) undergrad, and a committed web developer, constantly evolving and innovating in the tech landscape. While I've honed my skills in web development, I'm also deeply immersed in exploring and implementing advanced technologies like Machine Learning (ML) and Artificial Intelligence (AI).
+                </p>
+                <br><br>
+                <p>
+                    I thrive on tackling complex challenges and creating meaningful user experiences. My journey is driven by a passion for learning and a commitment to leveraging cutting-edge tools to build the future.
+                </p>        
             </div>
         </div>
-        
-        <div class="section" id="intro-section">
-            <p id="intro-text">
-                Welcome!<br>
-                I am <span style="font-weight: 600;">Yasir Waseem</span>,<br>
-                <br>
-                a common student interested<br>
-                in Programming, Robotics, Development<br>
-                and other invigorating things....
-            </p>
+    </section>
+
+    <section id="Connect">
+        <h2 class="h-secondary center">CONNECT WITH US</h2>
+        <p class="center">"Ask, feedback or critique"</p>
+        <div class="card">
+            <div class="cardimg1">
+                <a href="#" height="100%"><img src="email.svg" alt="email image" height="200" width="150" style="background-color: white;"></a>
+            </div>
+            <a id="" href="#">Email</a>
         </div>
-    </header>
-<hr>
-<main>
-    <h2>WORK</h2>
-    <cite>"Stuff I have done."</cite>
-    <div class="card_package">
-        <a href="" class="card">Software</a>
-        <a href="" class="card">Web</a>
-        <a href="Graphics.html" class="card"> Graphics</a>
-    </div>
-</main>
-<footer>
-    <h3>Contact me <a href="Contact Me.html">here</a></h3>
-    <a href="https://instagram.com/yasir__waseem" target="_main"><img src="Instagram logo.jpg" alt="Instagram logo" height="100"></a>
-    <a href="https://github.com/Technical-Bloff" target="_main"><img src="Github Logo.png" alt="Github Logo" height="100"></a>
-</footer>
+    </section>
 </body>
 </html>
