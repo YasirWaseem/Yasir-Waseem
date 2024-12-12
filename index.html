@@ -15,44 +15,266 @@
         </div>
                 
         <ul>
-        <li class="items"><a href="#">Home</a></li>
-        <li class="items"><a href="">About</a></li>
+        <li class="items"><a href="#about-container">About</a></li>
         <li class="items"><a href="">Project</a></li>
-        <li class="items"><a href="">Connect</a></li>
+        <li class="items"><a href="#Skills">Skills</a></li>
+        <li class="items"><a href="#connect">Connect</a></li>
+
+        <li class="items"><a href="https://github.com/YasirWaseem" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github "><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a></li>
+
+        <li class="items"><a href="https://www.linkedin.com/in/yasir-waseem-b13994299/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin "><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+
+        <li><a href="mailto:yasirwaseemmuz@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail "><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a></li>
         </ul>
     </nav>
 
     <section id="home">
         <h1 class="h-primary">Welcome to Yasir's Profile</h1>
         <p>A common student interested in Programming, Development, Robotics, AI </p>
-        <p>and other invigorating things.s </p>
-        <button class="btn">Get Resume</button>
+        <p>and other invigorating things </p>
+        <a href="Yasir's Resume.pdf" download="Yasir's CV">
+            <button class="btn">Get Resume</button>
+        </a>
     </section>
 
     <section id="about-container">
-        <h1 class="h-primary center grey_bg">About Me</h1>
+        <h2 class="h-primary center mb-48">About Me</h1>
         <div id="about">
+
+            <div id="about-img">
+                <img src="about_img.avif" alt="about_img" width="650">
+            </div>
+
             <div id="about-data">
-                <p>
+                <p class="mb-24">
                     I am Yasir Waseem. A CSE(AI & ML) undergrad, and a committed web developer, constantly evolving and innovating in the tech landscape. While I've honed my skills in web development, I'm also deeply immersed in exploring and implementing advanced technologies like Machine Learning (ML) and Artificial Intelligence (AI).
                 </p>
-                <br><br>
-                <p>
-                    I thrive on tackling complex challenges and creating meaningful user experiences. My journey is driven by a passion for learning and a commitment to leveraging cutting-edge tools to build the future.
-                </p>        
+
+                <div>
+                    <div class="flexbox" id = about-items>
+                        <div class="shrink0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open text-indigo-600"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                        </div>
+        
+                        <div>
+                            <h3  class="about-topics">Currently Learning</h3>
+                            <p>
+                                Advanced algorithms, cloud computing, and machine learning
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flexbox mt-16" id = about-items>
+                        <div class="shrink0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code text-indigo-600"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        </div>
+        
+                        <div>
+                            <h3  class="about-topics">Technical Skills</h3>
+                            <p>
+                                Full-stack development, mobile apps, and database design
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flexbox mt-16" id = about-items>
+                        <div class="shrink0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coffee text-indigo-600"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" x2="6" y1="2" y2="4"></line><line x1="10" x2="10" y1="2" y2="4"></line><line x1="14" x2="14" y1="2" y2="4"></line></svg>
+                        </div>
+        
+                        <div>
+                            <h3  class="about-topics">Interests</h3>
+                            <p>
+                                Open source contribution, hackathons, and tech meetups
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+
+    </section>
+
+    <section id="Skills">
+        <div class="SkillContainer">
+            <h2 class="center mb-48">Skills</h2>
+            <div class="grid">
+
+                <div class="Skillcard">
+                    <h3 style="color: #4f46ef;" class="mb-16">Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li class="mt-8">C</li>
+                        <li class="mt-8">C++</li>
+                        <li class="mt-8">JavaScript</li>
+                    </ul>
+                </div>
+
+                <div class="Skillcard">
+                    <h3 style="color: #4f46ef;" class="mb-16">Web technologies</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li class="mt-8">Bootstrap</li>
+                        <li class="mt-8">Django</li>
+                        <li class="mt-8">MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="Skillcard">
+                    <h3 style="color: #4f46ef;" class="mb-16">Tools & Frameworks</h3>
+                    <ul>
+                        <li>Git/Github</li>
+                        <li class="mt-8">AWS</li>
+                        <li class="mt-8">Pandas</li>
+                        <li class="mt-8">NumPy</li>
+                    </ul>
+                </div>
+
+                <div class="Skillcard">
+                    <h3 style="color: #4f46ef;" class="mb-16">Data & Machine Learning</h3>
+                    <ul>
+                        <li>Basic Statistics</li>
+                        <li class="mt-8">Data Visualization</li>
+                        <li class="mt-8">Linear Regression</li>
+                        <li class="mt-8">Logistic Regression</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="Connect">
-        <h2 class="h-secondary center">CONNECT WITH US</h2>
-        <p class="center">"Ask, feedback or critique"</p>
-        <div class="card">
-            <div class="cardimg1">
-                <a href="#" height="100%"><img src="email.svg" alt="email image" height="200" width="150" style="background-color: white;"></a>
+    <section id="projects">
+        <div class="project-container mx-auto">
+            <h2 class="h-secondary center mb-48">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="school-management.avif" class="project-img">
+                    <div class="project-data">
+                        <h3 class="mb-12">School Management System</h3>
+                        <p class="mb-16">A CLI system built in C for managing school data with complete CRUD operations using MySQL database</p>
+                        <div class="tech-stack mb-16">
+                            <span>C</span>
+                            <span>MySQL</span>
+                        </div> 
+                        <div style="padding-top: .5rem;">
+                            <a href="https://github.com/YasirWaseem/School-Management-System-in-C"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github mr-1"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg> View Code</a>
+                        </div>
+                    </div>
+      
+                </div>
+
+                <div class="project-card">
+                    <img src="portfolio.avif" class="project-img">
+                    <div class="project-data">
+                        <h3 class="mb-12">Portfolio Website</h3>
+                        <p class="mb-16">A modern, responsive portfolio website built with Vanilla HTML, CSS and JS, featuring a clean design and smooth animations. Implements best practices in web development and SEO optimization.</p>
+                        <div class="tech-stack mb-16">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>Django</span>
+                        </div> 
+                        <div style="padding-top: .5rem;">
+                            <a href="https://github.com/YasirWaseem/Yasir-Waseem"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github mr-1"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="house price.avif" class="project-img">
+                    <div class="project-data">
+                        <h3 class="mb-12">House Price Predictor</h3>
+                        <p class="mb-16">An AI model that predicts house prices using machine learning algorithms.</p>
+                        <div class="tech-stack mb-16">
+                            <span>Python</span>
+                            <span>Sci-kit-learn</span>
+                            <span>Pandas</span>
+                            <span>numpy</span>
+                        </div> 
+                        <div style="padding-top: .5rem;">
+                            <a href="https://github.com"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github mr-1"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg> View Code</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <a id="" href="#">Email</a>
         </div>
+        
     </section>
+
+    <section id="connect">
+        <div class="connect-container mx-auto">
+            <h2 class="h-secondary center">GET IN TOUCH</h2>
+            <p class="center mb-48">"Ask, feedback or critique"</p>
+
+            <div class="grid-parent mx-auto">
+                <div class="connect-grid">
+                    <div class="contact-information">
+                        <h3 class="mb-16">Contact Information</h3>
+                        <div class="contact-data mt-24">
+                            <div class="connect-data">
+                                <div class="shrink0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail "><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                                </div>
+                                <div class="contact-topics">
+                                    <h4>Email</h4>
+                                    <p>yasirwaseemmuz@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="connect-data mt-16">
+                                <div class="shrink0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone "><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="contact-topics">
+                                    <h4>Phone</h4>
+                                    <p>+91 9570325205</p>
+                                </div>
+                            </div>
+
+                            <div class="connect-data mt-16">
+                                <div class="shrink0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin "><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <div class="contact-topics">
+                                    <h4>Location</h4>
+                                    <p>Bihar, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form>
+                        <div>
+                            <label class="block mb-4">Name</label>
+                            <input type="text" class="input-style">
+                        </div>
+
+                        <div class="mt-16">
+                            <label class="block mb-4">Email</label>
+                            <input type="Email" class="input-style">
+                        </div>
+
+                        <div class="mt-16">
+                            <label class="block mb-4">Message</label>
+                            <textarea rows="4" class="input-style"></textarea>
+                        </div>
+
+                        <div class="mt-16">
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&#169 2024. Yasir Waseem. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
