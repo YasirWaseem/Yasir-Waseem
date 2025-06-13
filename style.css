@@ -77,9 +77,16 @@ html{
     padding: 5rem 0px;
 }
 
+.about-img{
+    max-width: 80%;
+    height: auto;
+    display: block;
+}
+
 #about{
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around; 
+    align-items: center;   
 }
 
 #about-img img{
@@ -108,6 +115,7 @@ html{
     background-color: #f9fafb;
     padding: 5rem 0rem;
     font-weight: 450;
+    margin: auto;
 }
 
 .grid{
@@ -153,6 +161,7 @@ html{
     transition: transform  0.3s ease;
     border: 0px solid rgb(229, 231, 235);
     border-radius: .75rem;
+    margin: auto;
 }
 
 .project-card:hover{
@@ -327,4 +336,39 @@ footer{
 .mx-auto{
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* responsiveness */
+
+@media (max-width: 1100px){
+    #about {
+        flex-direction: column;
+    }
+
+    .project-grid{
+        grid-template-columns: repeat(2, minmax(0px, 1fr));
+    }
+
+    .project-grid > *:nth-child(3) {
+        grid-column: 1 / -1;        /* Span full width of grid */
+        justify-self: center;       /* Center the card horizontally */
+    }
+}
+
+@media(max-width: 770px){
+    .grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .project-grid{
+        grid-template-columns: repeat(1, minmax(0px, 1fr));
+    }
+
+}
+
+@media(max-width: 500px){
+    .grid{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
 }
