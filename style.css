@@ -354,6 +354,11 @@ footer{
         grid-column: 1 / -1;        /* Span full width of grid */
         justify-self: center;       /* Center the card horizontally */
     }
+
+    #about-img{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media(max-width: 770px){
@@ -366,9 +371,18 @@ footer{
 
 }
 
-@media(max-width: 500px){
+@media(max-width: 600px){
     .grid{
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
+
+    .connect-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+    gap: 2rem;
+}
+    .contact-information{
+        order: 2;
+}
 }
